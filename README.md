@@ -1,10 +1,9 @@
 # CSC372-Project1-Unity
-Current Status:
-The game object created is just initial setup made by Unity.
+1. How to play the game?
+- You need to press play button on Unity IDE, and start the game.
+- Move along the scene by press arrow key on your keyboard.
+- press SpaceBar to jump from traps
+- Collect the cherries in the game to win the game.
+- If you use all your life (5 total), the game will end automatically.
+- Enjoy!
 
-Figured out how to commit by using Github Desktop from Unity to Github.
--> You need to create teh local repository first and create the project, or clone the project as you wish.
--> if you don't create the local repository first to your local computer, it's very hard to copy over files or folders to githubs.
-
-There are two branches. 
-I might mainly working on Jiwon's branch and pull request everytime there's an big update. 
