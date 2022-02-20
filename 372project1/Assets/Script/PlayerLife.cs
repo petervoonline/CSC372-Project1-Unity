@@ -22,6 +22,7 @@ public class PlayerLife : MonoBehaviour
         
     }
 
+    // Update the game to Game Over scene if the player used up 5 attempts
     void Update() {
         if (getLife() == 0) {
             Time.timeScale = 0;
@@ -56,14 +57,7 @@ public class PlayerLife : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    private void addLife() {
-        if (death == 5) {
-            death = 5;
-        } else if (death < 5){
-            death--;
-        }
-    }
-
+    // calculate the attempt the player has left
     private int getLife() {
         return (5-death);
     }
